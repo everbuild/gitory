@@ -1,0 +1,26 @@
+{
+  "name": "gitory",
+  "version": "0.0.1",
+  "description": "A utility that fixes cases where Git considers moved/renamed files as delete-creates, causing their history to become disconnected.",
+  "main": "index.js",
+  "bin": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "git",
+    "move",
+    "rename",
+    "log",
+    "history"
+  ],
+  "author": "Evert Bauwens (https://github.com/everbuild)",
+  "license": "MIT",
+  "repository": "everbuild/gitory",
+  "bugs": "https://github.com/everbuild/gitory/issues",
+  "dependencies": {
+    "inquirer": "^8.2.5",
+    "leven": "^3.1.0",
+    "lodash.groupby": "^4.6.0"
+  }
+}
